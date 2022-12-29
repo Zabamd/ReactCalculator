@@ -1,12 +1,12 @@
 .button {
     width:75px;
     height:75px;
-    color:black;
+    color:#4e4d5c;
     font-size: 36px; 
     font-weight: bolder;
     text-align: center;
     transition: background-color 0.5s;
 }
 .button:hover {
-    background-color: #c5c5c5;
+    background-color: #bebadd;
 }

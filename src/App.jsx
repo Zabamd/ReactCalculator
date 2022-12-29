@@ -66,6 +66,7 @@ class App extends React.Component {
         this.setState({ displayValue: newValue });
         break;
       case "+/-":
+        if(this.state.displayValue === "0") break;
         let switchValue =
           this.state.displayValue[0] === "-"
             ? this.state.displayValue.slice(1, this.state.displayValue.length)

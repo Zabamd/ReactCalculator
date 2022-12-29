@@ -12,5 +12,6 @@
 }
 .operand {
     float: right;
-    color: #ff8c00;
+    color: #DE1A1A;
+    font-weight: bolder;
 }
