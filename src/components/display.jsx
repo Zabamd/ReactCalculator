@@ -6,7 +6,10 @@ class Display extends React.Component {
     return (
       <div className="displayWrapper">
         <div className="previousValueDisplay">{this.props.previousValue}</div>
-        <div className="currentValueDisplay">{this.props.displayValue}<span className="operand">{this.props.operation}</span></div>
+        <div className="currentValueDisplay">
+          {this.props.displayValue}
+          <span className="operand">{this.props.operation}</span>
+        </div>
       </div>
     );
   }

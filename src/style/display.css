@@ -1,17 +1,17 @@
-.displayWrapper{
-    width: 100%;
-    height: 10vh;
-    padding: 15px 15px;
-    border-bottom: 1px solid #000;
+.displayWrapper {
+  width: 100%;
+  height: 10vh;
+  padding: 15px 15px;
+  border-bottom: 1px solid #000;
 }
 .previousValueDisplay,
 .currentValueDisplay {
-    width: 100%;
-    height:50%;
-    font-size: 2rem;
+  width: 100%;
+  height: 50%;
+  font-size: 2rem;
 }
 .operand {
-    float: right;
-    color: #DE1A1A;
-    font-weight: bolder;
+  float: right;
+  color: #de1a1a;
+  font-weight: bolder;
 }

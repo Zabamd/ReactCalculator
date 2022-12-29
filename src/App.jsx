@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "./components/button";
 import Display from "./components/display";
-import "./App.css";
+import "./style/App.css";
 
 class App extends React.Component {
   constructor(props) {
@@ -11,6 +11,7 @@ class App extends React.Component {
       previousValue: " ",
       operation: " ",
     };
+
     this.layout = [
       [7, 8, 9, "x"],
       [4, 5, 6, "+"],
@@ -66,7 +67,7 @@ class App extends React.Component {
         this.setState({ displayValue: newValue });
         break;
       case "+/-":
-        if(this.state.displayValue === "0") break;
+        if (this.state.displayValue === "0") break;
         let switchValue =
           this.state.displayValue[0] === "-"
             ? this.state.displayValue.slice(1, this.state.displayValue.length)
