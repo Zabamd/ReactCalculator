@@ -1,0 +1,16 @@
+.displayWrapper{
+    width: 100%;
+    height: 10vh;
+    padding: 15px 15px;
+    border-bottom: 1px solid #000;
+}
+.previousValueDisplay,
+.currentValueDisplay {
+    width: 100%;
+    height:50%;
+    font-size: 2rem;
+}
+.operand {
+    float: right;
+    color: #ff8c00;
+}
